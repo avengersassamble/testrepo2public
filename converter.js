@@ -120,7 +120,7 @@ function many_words(sentence)
 
 function print_many_words(index_pmw)
 {
-  var text_pmw = many_words(document.convarea.many_words_text.value);
+  let text_pmw = many_words(document.convarea.many_words_text.value);
 
   var ans = "";
   while (text_pmw.length) {
